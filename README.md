@@ -1,4 +1,4 @@
-<a href="https://fageer.github.io/Product_Management_System/"><strong>➥ Live Demo</strong></a>
+<a href="https://fageer.github.io/prayers-Timings/"><strong>➥ Live Demo</strong></a>
 
 # Prayers Timings Project.
 
