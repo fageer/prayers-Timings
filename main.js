@@ -1,8 +1,11 @@
-
 let cities = [
     {
         cityName:"Riyadh",
         isocode: "Ar Riyāḑ"
+    },
+    {
+        cityName:"Al-Jouf",
+        isocode: "Al Jawf"
     },
     {
         cityName:"Makkah",
@@ -30,9 +33,11 @@ let cities = [
     }
 ];
 
+
 for (let city of cities){
     document.getElementById("cities").innerHTML += `<option value="${city.cityName}">${city.cityName}</option>`
 };
+
 
 document.getElementById("cities").onchange = function(){
     document.getElementById("city").innerHTML = this.value;
@@ -44,7 +49,6 @@ document.getElementById("cities").onchange = function(){
     }
     getPrayerTimingsOfCity(cityName);
 };
-
 
 
 function getPrayerTimingsOfCity(cityName){
@@ -77,7 +81,6 @@ function getPrayerTimingsOfCity(cityName){
 }
 
 getPrayerTimingsOfCity("Ar Riyāḑ")
-
 
 function fillTimeForPrayer(id, time){
     document.getElementById(id).innerHTML = time;
