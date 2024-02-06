@@ -70,7 +70,7 @@ function getPrayerTimingsOfCity(cityName){
         fillTimeForPrayer("isha-time", timings.Isha);
         const readableDate = response.data.data.date.readable;
         const weekDay = response.data.data.date.gregorian.weekday.en;
-        const date = weekDay + "/" + readableDate ;
+        const date = weekDay + " / " + readableDate ;
         document.getElementById("date").innerHTML = date;
         // document.getElementById("fajr-time").innerHTML = timings.Fajr;
         console.log(readableDate + " " + weekDay);
