@@ -12,7 +12,6 @@ body {
   background-attachment: fixed;
   background-size: cover;
   font-family: "Raleway", sans-serif;
-  background-color: var(--bg-color);
 }
 /* header */
 header {
